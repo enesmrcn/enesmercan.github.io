@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Enes Mercan · Spacecraft Electronics Design Engineer</title>
+  <meta name="description" content="Spacecraft electronics design engineer. I design power and sensor electronics for satellites. My hardware flies on six spacecraft in orbit.">
+  <link rel="canonical" href="https://enesmercan.com/">
+  <meta name="theme-color" content="#000000">
+  <meta name="color-scheme" content="dark">
+
+  <!-- Sharing cards (LinkedIn, WhatsApp, X, Slack) -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://enesmercan.com/">
+  <meta property="og:site_name" content="Enes Mercan">
+  <meta property="og:title" content="Enes Mercan · Spacecraft Electronics Design Engineer">
+  <meta property="og:description" content="I design the electronics that keep satellites powered and pointed the right way. Hardware on six spacecraft in orbit.">
+  <meta property="og:image" content="https://enesmercan.com/assets/img/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Enes Mercan, Spacecraft Electronics Design Engineer. Six spacecraft in orbit.">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+  <link rel="preload" href="assets/fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/fonts.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+
+  <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
+  <script type="module" src="assets/js/main.js"></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Enes Mercan",
+    "url": "https://enesmercan.com/",
+    "image": "https://enesmercan.com/assets/img/og-image.png",
+    "jobTitle": "Spacecraft Electronics Design Engineer",
+    "description": "Spacecraft electronics design engineer specialising in satellite power systems and precision sensor electronics.",
+    "sameAs": [
+      "https://www.linkedin.com/in/enesmercan",
+      "https://github.com/enesmrcn"
+    ],
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "Karadeniz Technical University" }
+    ],
+    "knowsAbout": [
+      "Spacecraft electronics",
+      "Power Conditioning and Distribution Units",
+      "Precision analog design",
+      "Magnetometers",
+      "Inertial measurement units",
+      "Space environmental testing",
+      "Thermal vacuum testing",
+      "EMI/EMC",
+      "Altium Designer",
+      "LTspice"
+    ]
+  }
+  </script>
+
+  <!-- Analytics (optional, cookie-less). After creating a free GoatCounter account, uncomment and set your code:
+  <script data-goatcounter="https://YOURCODE.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+  -->
+</head>
+<body>
+  <a class="skip-link" href="#time-machine">Skip to the career timeline</a>
+
+  <!-- The sky: one fixed background layer whose tone follows the scroll position -->
+  <div class="sky" aria-hidden="true">
+    <canvas class="sky__stars"></canvas>
+    <div class="sky__horizon"></div>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Enes Mercan, back to the top">
+      <svg class="brand__mark" viewBox="0 0 40 40" aria-hidden="true">
+        <ellipse cx="20" cy="20" rx="18" ry="7.5" transform="rotate(-24 20 20)" fill="none" stroke="currentColor" stroke-opacity=".45"/>
+        <circle cx="35.4" cy="12.6" r="1.8" fill="currentColor"/>
+      </svg>
+      <span class="brand__text">EM</span>
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-list">
+        <span class="nav-toggle__bars" aria-hidden="true"></span>
+        <span class="visually-hidden">Menu</span>
+      </button>
+      <ul id="nav-list" class="site-nav__list">
+        <li><a href="#briefing">Briefing</a></li>
+        <li><a href="#time-machine">Time Machine</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a class="btn btn--ghost btn--small" href="assets/cv/Enes-Mercan-CV.pdf" download>CV</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- 01 · ENTRANCE -->
+    <section class="cover" id="cover" aria-labelledby="cover-title">
+      <div class="cover__stage">
+        <div class="cover__planet" aria-hidden="true"></div>
+
+        <!-- Portrait: drop a photo at assets/img/portrait.jpg. It is turned greyscale and faded into black automatically. -->
+        <div class="cover__portrait" aria-hidden="true">
+          <img src="assets/img/portrait.jpg" alt="" width="900" height="1200" fetchpriority="high" decoding="async">
+        </div>
+
+        <div class="cover__content">
+          <div class="cover__inner">
+            <p class="cover__eyebrow">Hello, I’m</p>
+            <h1 id="cover-title" class="cover__name"><span>Enes</span> <span>Mercan</span></h1>
+            <p class="cover__role">Spacecraft Electronics Design Engineer</p>
+            <p class="cover__lead">I design the electronics that keep satellites powered and pointed the right way.</p>
+
+            <ul class="cover__proof">
+              <li class="chip"><strong>6</strong> spacecraft in orbit</li>
+              <li class="chip"><strong>3+</strong> years in the space industry</li>
+              <li class="chip chip--list">
+                <span class="chip__label">Designed</span>
+                <span>Power unit</span><span>Magnetometer</span><span>IMU</span><span>ADHU</span>
+              </li>
+            </ul>
+
+            <div class="cover__actions">
+              <a class="btn btn--primary" href="#briefing">
+                Begin the journey
+                <svg class="btn__icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v11M3.5 8.5 8 13l4.5-4.5" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+              </a>
+              <a class="btn btn--ghost" href="assets/cv/Enes-Mercan-CV.pdf" download>Download CV</a>
+            </div>
+          </div>
+        </div>
+
+        <a class="scroll-cue" href="#briefing" aria-label="Scroll to the mission briefing">
+          <span class="scroll-cue__mouse" aria-hidden="true"><span class="scroll-cue__wheel"></span></span>
+          <span class="scroll-cue__label" aria-hidden="true">Scroll to travel back in time</span>
+          <span class="scroll-cue__line" aria-hidden="true"></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- 02 · MISSION BRIEFING -->
+    <section class="briefing section" id="briefing" aria-labelledby="briefing-title" data-milestone="reached-briefing">
+      <svg class="briefing__orbits" viewBox="0 0 800 800" aria-hidden="true">
+        <g transform="rotate(-18 400 400)" fill="none" stroke="currentColor">
+          <ellipse cx="400" cy="400" rx="380" ry="140"/>
+          <ellipse cx="400" cy="400" rx="290" ry="98" stroke-dasharray="2 6"/>
+          <ellipse cx="400" cy="400" rx="200" ry="58"/>
+          <circle class="briefing__sat" r="3.5" fill="currentColor" stroke="none">
+            <animateMotion dur="36s" repeatCount="indefinite" path="M20 400a380 140 0 1 0 760 0a380 140 0 1 0-760 0"/>
+          </circle>
+        </g>
+      </svg>
+
+      <div class="container">
+        <p class="kicker" data-reveal><span>02</span>Mission briefing</p>
+        <h2 id="briefing-title" class="section-title" data-reveal>Three years. Six spacecraft. <span class="dim">From the first schematic to the first signal from orbit.</span></h2>
+
+        <ul class="stats" data-reveal-group>
+          <li class="stat" data-reveal>
+            <strong class="stat__value"><span data-count="6">6</span></strong>
+            <span class="stat__label">Spacecraft in orbit</span>
+            <span class="stat__sub">carrying hardware I helped design, build and test</span>
+          </li>
+          <li class="stat" data-reveal>
+            <strong class="stat__value"><span data-count="7">7</span></strong>
+            <span class="stat__label">Spacecraft built</span>
+            <span class="stat__sub">avionics for 4 microsatellites, 1 CubeSat and 2 SpaceTugs</span>
+          </li>
+          <li class="stat" data-reveal>
+            <strong class="stat__value"><span data-count="4">4</span></strong>
+            <span class="stat__label">Spacecraft units designed</span>
+            <span class="stat__sub">power, magnetometer, IMU and analog data handling</span>
+          </li>
+          <li class="stat" data-reveal>
+            <strong class="stat__value"><span data-count="3">3</span><span class="stat__suffix">+</span></strong>
+            <span class="stat__label">Years in the space industry</span>
+            <span class="stat__sub">from concept to launch and early orbit operations</span>
+          </li>
+        </ul>
+
+        <div class="subhead" data-reveal>
+          <h3>What I design</h3>
+          <p>Flight hardware, explained simply</p>
+        </div>
+        <ul class="systems" data-reveal-group>
+          <li class="system" data-reveal>
+            <svg class="system__icon" viewBox="0 0 40 40" aria-hidden="true"><rect x="7" y="11" width="24" height="18" rx="2"/><path d="M31 17h3v6h-3"/><path d="M20.5 13.5 15 21h5l-1.5 6 6-8.5h-5l1-5z"/></svg>
+            <h4 class="system__name">Power unit <abbr title="Power Conditioning and Distribution Unit">PCDU</abbr></h4>
+            <p>The satellite’s power plant. It takes energy from the solar panels and battery and delivers it safely to every system on board.</p>
+          </li>
+          <li class="system" data-reveal>
+            <svg class="system__icon" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="13"/><path d="M20 9.5 23.2 20 20 30.5 16.8 20z"/><path d="M20 4v3M20 33v3M4 20h3M33 20h3"/></svg>
+            <h4 class="system__name">Magnetometer unit</h4>
+            <p>A compass for orbit. It measures Earth’s magnetic field so the satellite knows which way it is facing.</p>
+          </li>
+          <li class="system" data-reveal>
+            <svg class="system__icon" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="3"/><ellipse cx="20" cy="20" rx="14" ry="6"/><ellipse cx="20" cy="20" rx="14" ry="6" transform="rotate(60 20 20)"/><ellipse cx="20" cy="20" rx="14" ry="6" transform="rotate(120 20 20)"/></svg>
+            <h4 class="system__name">Inertial unit <abbr title="Inertial Measurement Unit">IMU</abbr></h4>
+            <p>Senses every turn and wobble, so the satellite can hold steady and point where it needs to.</p>
+          </li>
+          <li class="system" data-reveal>
+            <svg class="system__icon" viewBox="0 0 40 40" aria-hidden="true"><rect x="9" y="9" width="22" height="22" rx="2"/><path d="M14 5v4M20 5v4M26 5v4M14 31v4M20 31v4M26 31v4M5 14h4M5 20h4M5 26h4M31 14h4M31 20h4M31 26h4"/><path d="M12.5 20h3l2-4.5 3 9 2-4.5h5"/></svg>
+            <h4 class="system__name">Analog data unit <abbr title="Analog Data Handling Unit">ADHU</abbr></h4>
+            <p>Reads very faint sensor signals with ultra-low noise. My design improved how accurately the satellite knows its orientation.</p>
+          </li>
+        </ul>
+
+        <div class="subhead" data-reveal>
+          <h3>Concept to orbit</h3>
+          <p>I owned the whole journey</p>
+        </div>
+        <ol class="process" data-reveal>
+          <li class="process__step"><span class="process__num">01</span><span class="process__label">Requirements</span><span class="process__sub">Research, trade studies and specs</span></li>
+          <li class="process__step"><span class="process__num">02</span><span class="process__label">Design</span><span class="process__sub">Schematics, PCB layout and simulation</span></li>
+          <li class="process__step"><span class="process__num">03</span><span class="process__label">Build</span><span class="process__sub">Manufacturing and bring-up</span></li>
+          <li class="process__step"><span class="process__num">04</span><span class="process__label">Test &amp; qualify</span><span class="process__sub">Thermal vacuum, vibration, EMI/EMC, radiation</span></li>
+          <li class="process__step"><span class="process__num">05</span><span class="process__label">Integrate</span><span class="process__sub">Spacecraft-level integration</span></li>
+          <li class="process__step"><span class="process__num">06</span><span class="process__label">Launch</span><span class="process__sub">Six spacecraft launched</span></li>
+          <li class="process__step process__step--orbit"><span class="process__num">07</span><span class="process__label">Operate</span><span class="process__sub">On-orbit power monitoring</span></li>
+        </ol>
+
+        <div class="subhead" data-reveal>
+          <h3>Missions in orbit</h3>
+          <p>Tap a patch to find it in the time machine</p>
+        </div>
+        <ul class="patches" data-reveal-group>
+          <li class="patch" data-reveal>
+            <a class="patch__link" href="#m-fgn-100-d1">
+              <svg class="patch__svg" viewBox="0 0 120 120" aria-hidden="true">
+                <defs><path id="pt-d1" d="M17 60a43 43 0 1 1 86 0"/><path id="pb-d1" d="M12 60a48 48 0 1 0 96 0"/></defs>
+                <circle class="patch__outer" cx="60" cy="60" r="57"/><circle class="patch__inner" cx="60" cy="60" r="33"/>
+                <g class="patch__ring"><text class="patch__ringtext" text-anchor="middle"><textPath href="#pt-d1" startOffset="50%">FGN-100 · NAVIGATION</textPath></text><text class="patch__ringtext" text-anchor="middle"><textPath href="#pb-d1" startOffset="50%">104 KG</textPath></text></g>
+                <text class="patch__code" x="60" y="69" text-anchor="middle">D1</text>
+              </svg>
+              <span class="patch__name">FGN-100-D1</span>
+              <span class="patch__date">Nov 2025</span>
+            </a>
+          </li>
+          <li class="patch" data-reveal>
+            <a class="patch__link" href="#m-fgn-100-d2">
+              <svg class="patch__svg" viewBox="0 0 120 120" aria-hidden="true">
+                <defs><path id="pt-d2" d="M17 60a43 43 0 1 1 86 0"/><path id="pb-d2" d="M12 60a48 48 0 1 0 96 0"/></defs>
+                <circle class="patch__outer" cx="60" cy="60" r="57"/><circle class="patch__inner" cx="60" cy="60" r="33"/>
+                <g class="patch__ring"><text class="patch__ringtext" text-anchor="middle"><textPath href="#pt-d2" startOffset="50%">FGN-100 · NAVIGATION</textPath></text><text class="patch__ringtext" text-anchor="middle"><textPath href="#pb-d2" startOffset="50%">101 KG</textPath></text></g>
+                <text class="patch__code" x="60" y="69" text-anchor="middle">D2</text>
+              </svg>
+              <span class="patch__name">FGN-100-D2</span>
+              <span class="patch__date">Nov 2025</span>
+            </a>
+          </li>
+          <li class="patch" data-reveal>
+            <a class="patch__link" href="#m-fgn-tug-s01">
+              <svg class="patch__svg" viewBox="0 0 120 120" aria-hidden="true">
+                <defs><path id="pt-s1" d="M17 60a43 43 0 1 1 86 0"/><path id="pb-s1" d="M12 60a48 48 0 1 0 96 0"/></defs>
+                <circle class="patch__outer" cx="60" cy="60" r="57"/><circle class="patch__inner" cx="60" cy="60" r="33"/>
+                <g class="patch__ring"><text class="patch__ringtext" text-anchor="middle"><textPath href="#pt-s1" startOffset="50%">FGN-TUG · TRANSFER</textPath></text><text class="patch__ringtext" text-anchor="middle"><textPath href="#pb-s1" startOffset="50%">250 KG</textPath></text></g>
+                <text class="patch__code" x="60" y="69" text-anchor="middle">S01</text>
+              </svg>
+              <span class="patch__name">FGN-TUG-S01</span>
+              <span class="patch__date">Nov 2025</span>
+            </a>
+          </li>
+          <li class="patch" data-reveal>
+            <a class="patch__link" href="#m-fgn-100-d3">
+              <svg class="patch__svg" viewBox="0 0 120 120" aria-hidden="true">
+                <defs><path id="pt-d3" d="M17 60a43 43 0 1 1 86 0"/><path id="pb-d3" d="M12 60a48 48 0 1 0 96 0"/></defs>
+                <circle class="patch__outer" cx="60" cy="60" r="57"/><circle class="patch__inner" cx="60" cy="60" r="33"/>
+                <g class="patch__ring"><text class="patch__ringtext" text-anchor="middle"><textPath href="#pt-d3" startOffset="50%">FGN-100 · NAVIGATION</textPath></text><text class="patch__ringtext" text-anchor="middle"><textPath href="#pb-d3" startOffset="50%">100 KG</textPath></text></g>
+                <text class="patch__code" x="60" y="69" text-anchor="middle">D3</text>
+              </svg>
+              <span class="patch__name">FGN-100-D3</span>
+              <span class="patch__date">Mar 2026</span>
+            </a>
+          </li>
+          <li class="patch" data-reveal>
+            <a class="patch__link" href="#m-fgn-100-d4">
+              <svg class="patch__svg" viewBox="0 0 120 120" aria-hidden="true">
+                <defs><path id="pt-d4" d="M17 60a43 43 0 1 1 86 0"/><path id="pb-d4" d="M12 60a48 48 0 1 0 96 0"/></defs>
+                <circle class="patch__outer" cx="60" cy="60" r="57"/><circle class="patch__inner" cx="60" cy="60" r="33"/>
+                <g class="patch__ring"><text class="patch__ringtext" text-anchor="middle"><textPath href="#pt-d4" startOffset="50%">FGN-100 · NAVIGATION</textPath></text><text class="patch__ringtext" text-anchor="middle"><textPath href="#pb-d4" startOffset="50%">150 KG</textPath></text></g>
+                <text class="patch__code" x="60" y="69" text-anchor="middle">D4</text>
+              </svg>
+              <span class="patch__name">FGN-100-D4</span>
+              <span class="patch__date">Oct 2026</span>
+            </a>
+          </li>
+          <li class="patch" data-reveal>
+            <a class="patch__link" href="#m-fgn-tug-s02">
+              <svg class="patch__svg" viewBox="0 0 120 120" aria-hidden="true">
+                <defs><path id="pt-s2" d="M17 60a43 43 0 1 1 86 0"/><path id="pb-s2" d="M12 60a48 48 0 1 0 96 0"/></defs>
+                <circle class="patch__outer" cx="60" cy="60" r="57"/><circle class="patch__inner" cx="60" cy="60" r="33"/>
+                <g class="patch__ring"><text class="patch__ringtext" text-anchor="middle"><textPath href="#pt-s2" startOffset="50%">FGN-TUG · TRANSFER</textPath></text><text class="patch__ringtext" text-anchor="middle"><textPath href="#pb-s2" startOffset="50%">560 KG</textPath></text></g>
+                <text class="patch__code" x="60" y="69" text-anchor="middle">S02</text>
+              </svg>
+              <span class="patch__name">FGN-TUG-S02</span>
+              <span class="patch__date">Oct 2026</span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="subhead" data-reveal>
+          <h3>Awards</h3>
+          <p>Student space competitions</p>
+        </div>
+        <ul class="awards" data-reveal-group>
+          <li class="award" data-reveal><span class="award__place">3<sup>rd</sup></span><span class="award__name">NASA Satellite Design Competition</span><span class="award__year">2023</span></li>
+          <li class="award" data-reveal><span class="award__place">2<sup>nd</sup></span><span class="award__name">Latin American Space Challenge</span><span class="award__year">2023</span></li>
+          <li class="award" data-reveal><span class="award__place">4<sup>th</sup></span><span class="award__name">National Satellite Design Challenge</span><span class="award__year">2022</span></li>
+          <li class="award" data-reveal><span class="award__place">7<sup>th</sup></span><span class="award__name">National Rocket Design Competition</span><span class="award__year">2023</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 03 · LINEAR VERTICAL TIME MACHINE -->
+    <section class="tm" id="time-machine" aria-labelledby="tm-title" data-milestone="reached-time-machine">
+      <div class="container tm__intro">
+        <p class="kicker" data-reveal><span>03</span>Linear vertical time machine</p>
+        <h2 id="tm-title" class="section-title" data-reveal>The Time Machine</h2>
+        <p class="section-lead" data-reveal>Scroll down to travel back through my career, from today to the day it all began in 2018.</p>
+      </div>
+
+      <div class="container tm__layout">
+        <aside class="tm__dial" aria-label="Time machine">
+          <div class="tm__dial-inner">
+            <div class="tm__readout" aria-hidden="true">
+              <span class="tm__dial-label">Destination</span>
+              <span class="tm__month" data-dial-month>NOW</span>
+              <span class="tm__year" data-dial-year>2026</span>
+              <span class="tm__rel" data-dial-rel>Present day</span>
+            </div>
+            <nav class="tm__years" aria-label="Jump to a year">
+              <a href="#t-2026-10" data-year-link="2026">2026</a>
+              <a href="#t-2025-11" data-year-link="2025">2025</a>
+              <a href="#t-2024" data-year-link="2024">2024</a>
+              <a href="#t-2023-10" data-year-link="2023">2023</a>
+              <a href="#t-2022-10" data-year-link="2022">2022</a>
+              <a href="#t-2018" data-year-link="2018">2018</a>
+            </nav>
+          </div>
+        </aside>
+
+        <div class="tm__track">
+          <div class="tm__spine" aria-hidden="true"><div class="tm__spine-fill"></div></div>
+          <div class="tm__ticks" aria-hidden="true"></div>
+          <div class="tm__cursor" aria-hidden="true"></div>
+
+          <!-- Newest first. To add an entry, copy an <li> block and set data-date="YYYY-MM" (keep the list in date order). -->
+          <ol class="tm__list">
+
+            <!-- NOW: fill in the new role (title, company, start month), then delete the word "hidden" below to show it -->
+            <li class="tm-entry tm-entry--now" id="t-now" data-date="now" data-reveal hidden>
+              <span class="tm-entry__marker" aria-hidden="true"></span>
+              <p class="tm-entry__meta"><span>Now</span><span class="tm-entry__type">New mission</span></p>
+              <h3 class="tm-entry__title">[New role title]</h3>
+              <p class="tm-entry__org">[Company]</p>
+              <p class="tm-entry__text">[One sentence about what I’m working on now.]</p>
+            </li>
+
+            <li class="tm-entry tm-entry--launch" id="t-2026-10" data-date="2026-10" data-reveal>
+              <span class="tm-entry__marker" aria-hidden="true"></span>
+              <p class="tm-entry__meta"><time datetime="2026-10">Oct 2026</time><span class="tm-entry__type">Launch</span></p>
+              <h3 class="tm-entry__title">Two more spacecraft reach orbit</h3>
+              <ul class="tm-missions">
+                <li id="m-fgn-100-d4"><span class="tm-missions__name">FGN-100-D4</span><span class="tm-missions__meta">Navigation satellite · 150 kg</span></li>
+                <li id="m-fgn-tug-s02"><span class="tm-missions__name">FGN-TUG-S02</span><span class="tm-missions__meta">Orbital transfer vehicle · 560 kg</span></li>
+              </ul>
+              <p class="tm-entry__text">The fourth navigation satellite and the second, larger SpaceTug carry hardware I worked on at Fergani Space.</p>
+            </li>
+
+            <li class="tm-entry tm-entry--launch" id="t-2026-03" data-date="2026-03" data-reveal>
+              <span class="tm-entry__marker" aria-hidden="true"></span>
+              <p class="tm-entry__meta"><time datetime="2026-03">Mar 2026</time><span class="tm-entry__type">Launch</span></p>
+              <h3 class="tm-entry__title">The constellation grows</h3>
+              <ul class="tm-missions">
+                <li id="m-fgn-100-d3"><span class="tm-missions__name">FGN-100-D3</span><span class="tm-missions__meta">Navigation satellite · 100 kg</span></li>
+              </ul>
+              <p class="tm-entry__text">The third navigation satellite joins the first two in orbit.</p>
+            </li>
+
+            <li class="tm-entry tm-entry--launch" id="t-2025-11" data-date="2025-11" data-reveal>
+              <span class="tm-entry__marker" aria-hidden="true"></span>
+              <p class="tm-entry__meta"><time datetime="2025-11">Nov 2025</time><span class="tm-entry__type">First launch</span></p>
+              <h3 class="tm-entry__title">My first hardware reaches orbit</h3>
+              <ul class="tm-missions">
+                <li id="m-fgn-100-d1"><span class="tm-missions__name">FGN-100-D1</span><span class="tm-missions__meta">Navigation satellite · 104 kg</span></li>
+                <li id="m-fgn-100-d2"><span class="tm-missions__name">FGN-100-D2</span><span class="tm-missions__meta">Navigation satellite · 101 kg</span></li>
+                <li id="m-fgn-tug-s01"><span class="tm-missions__name">FGN-TUG-S01</span><span class="tm-missions__meta">Orbital transfer vehicle · 250 kg</span></li>
+              </ul>
+              <p class="tm-entry__text">The first two navigation satellites and the first SpaceTug launch. In the critical first days in orbit, the Launch and Early Orbit Phase, I monitored their power systems and helped troubleshoot from the ground.</p>
+            </li>
+
+            <!-- Approximate month for the dial; the visible label shows the years only. -->
+            <li class="tm-entry tm-entry--edu" id="t-2024" data-date="2024-09" data-reveal>
+              <span class="tm-entry__marker" aria-hidden="true"></span>
+              <p class="tm-entry__meta"><span>2024 – 2026</span><span class="tm-entry__type">Education</span></p>
+              <h3 class="tm-entry__title">Graduate studies in electronics</h3>
+              <p class="tm-entry__org">MSc coursework · Istanbul University</p>
+              <p class="tm-entry__text">Alongside full-time spacecraft work: analog integrated circuit design, noise analysis in electronic circuits, digital MOS integrated circuit design and motor drive systems.</p>
+            </li>
+
+            <li class="tm-entry tm-entry--role" id="t-2023-10" data-date="2023-10" data-reveal>
+              <span class="tm-entry__marker" aria-hidden="true"></span>
+              <p class="tm-entry__meta"><span><time datetime="2023-10">Oct 2023</time> – <time datetime="2026-08">Aug 2026</time></span><span class="tm-entry__type">Role</span></p>
+              <h3 class="tm-entry__title">Electrical &amp; Electronics Engineer</h3>
+              <p class="tm-entry__org">Fergani Space Technologies</p>
+              <p class="tm-entry__text">I designed the electronics that power satellites and help them find their orientation, then followed that hardware through testing, launch and its first days in orbit.</p>
+              <ul class="tm-entry__points">
+                <li>Built the avionics for 4 microsatellites, 1 CubeSat and 2 SpaceTugs</li>
+                <li>Designed the power unit (PCDU), magnetometer unit, ADHU and IMU</li>
+                <li>Tested hardware in thermal vacuum and vibration, at unit and spacecraft level</li>
+              </ul>
+              <details class="tm-details">
+                <summary>Engineer’s details</summary>
+                <ul>
+                  <li>Owned the full electronic product lifecycle: literature research and trade studies, requirements, schematic and PCB design, manufacturing, electrical and functional testing, environmental qualification and system-level spacecraft integration.</li>
+                  <li>Qualified hardware for TVAC, vibration, EMI/EMC, single-event effects (SEE) and total ionising dose (TID).</li>
+                  <li>Developed Software-in-the-Loop (SIL) and Hardware-in-the-Loop (HIL) test benches for spacecraft electrical and functional validation.</li>
+                  <li>Ran power, thermal and TVAC tests on the spacecraft PCDU under mission-representative conditions.</li>
+                  <li>Improved attitude-determination accuracy with ultra-low-noise, low-drift precision analog circuits for the ADHU.</li>
+                  <li>Took part in LEOP: on-orbit power-system performance monitoring and troubleshooting.</li>
+                  <li>Prepared FMEA for the electronic equipment with the systems engineers, supporting system-level risk assessment.</li>
+                </ul>
+                <ul class="tm-tags" aria-label="Skills">
+                  <li>PCDU</li><li>ADHU</li><li>IMU</li><li>Magnetometer</li><li>TVAC</li><li>Vibration</li><li>EMI/EMC</li><li>SEE · TID</li><li>SIL · HIL</li><li>FMEA</li><li>Altium Designer</li><li>LTspice</li>
+                </ul>
+              </details>
+            </li>
+
+            <li class="tm-entry tm-entry--role" id="t-2023-08" data-date="2023-08" data-reveal>
+              <span class="tm-entry__marker" aria-hidden="true"></span>
+              <p class="tm-entry__meta"><span><time datetime="2023-08">Aug</time> – <time datetime="2023-09">Sep 2023</time></span><span class="tm-entry__type">Internship</span></p>
+              <h3 class="tm-entry__title">Engineer Intern</h3>
+              <p class="tm-entry__org">Fergani Space Technologies</p>
+              <p class="tm-entry__text">My first steps in the space industry: a 220 W power converter for a satellite, and load tests on its power distribution unit.</p>
+              <details class="tm-details">
+                <summary>Engineer’s details</summary>
+                <ul>
+                  <li>Designed a 220 W synchronous DC-DC buck-boost converter for the satellite.</li>
+                  <li>Ran electrical load tests on the satellite’s Power Conditioning and Distribution Unit and documented the results.</li>
+                  <li>Verified the thermal performance of the PCDU boards with lab instruments.</li>
+                  <li>Designed 100 W isolated DC-DC converter schematics for COTS converters.</li>
+                </ul>
+              </details>
+            </li>
+
+            <!-- Approximate month for the dial; the visible label shows the year only. -->
+            <li class="tm-entry tm-entry--award" id="t-2023" data-date="2023-06" data-reveal>
+              <span class="tm-entry__marker" aria-hidden="true"></span>
+              <p class="tm-entry__meta"><time datetime="2023">2023</time><span class="tm-entry__type">Graduation &amp; awards</span></p>
+              <h3 class="tm-entry__title">Graduation, and a strong competition season</h3>
+              <p class="tm-entry__org">BSc Electrical &amp; Electronics Engineering · Karadeniz Technical University</p>
+              <ul class="tm-results">
+                <li><span class="tm-results__place">3rd</span>NASA Satellite Design Competition</li>
+                <li><span class="tm-results__place">2nd</span>Latin American Space Challenge</li>
+                <li><span class="tm-results__place">7th</span>National Rocket Design Competition</li>
+              </ul>
+            </li>
+
+            <li class="tm-entry tm-entry--role" id="t-2023-05" data-date="2023-05" data-reveal>
+              <span class="tm-entry__marker" aria-hidden="true"></span>
+              <p class="tm-entry__meta"><span><time datetime="2023-05">May</time> – <time datetime="2023-08">Aug 2023</time></span><span class="tm-entry__type">Role</span></p>
+              <h3 class="tm-entry__title">Electronics Design Engineer (Scholar)</h3>
+              <p class="tm-entry__org" lang="tr">TÜBİTAK BİLGEM</p>
+              <p class="tm-entry__text">Designed a high-speed data interface board that links two avionics units on a national fighter jet program.</p>
+              <details class="tm-details">
+                <summary>Engineer’s details</summary>
+                <ul>
+                  <li>Designed a high-speed data interface board connecting the IFF and OBC avionics units.</li>
+                  <li>Troubleshot and fixed issues on FPGA-based military electronic boards.</li>
+                  <li>Rebuilt and standardised the Altium Designer hardware library for reuse across the R&amp;D department.</li>
+                  <li>Produced harness and interconnection documentation for system-level integration and testing.</li>
+                  <li>Prepared technical reports and project documentation to program requirements.</li>
+                </ul>
+              </details>
+            </li>
+
+            <li class="tm-entry tm-entry--role" id="t-2022-10" data-date="2022-10" data-reveal>
+              <span class="tm-entry__marker" aria-hidden="true"></span>
+              <p class="tm-entry__meta"><span><time datetime="2022-10">Oct 2022</time> – <time datetime="2023-05">May 2023</time></span><span class="tm-entry__type">Role</span></p>
+              <h3 class="tm-entry__title">Hardware Design Engineer</h3>
+              <p class="tm-entry__org">DOF Robotics</p>
+              <p class="tm-entry__text">While finishing my degree, I designed and built custom control hardware for industrial robots, from idea to product.</p>
+              <details class="tm-details">
+                <summary>Engineer’s details</summary>
+                <ul>
+                  <li>Designed and manufactured robotic control hardware for industrial use.</li>
+                  <li>Delivered idea-to-product hardware solutions and engineering consultancy to the R&amp;D team.</li>
+                  <li>Designed everything in Altium and simulated it in LTspice before manufacturing.</li>
+                  <li>Wrote the technical documentation and user manuals for the hardware.</li>
+                </ul>
+              </details>
+            </li>
+
+            <li class="tm-entry tm-entry--role" id="t-2022-08" data-date="2022-08" data-reveal>
+              <span class="tm-entry__marker" aria-hidden="true"></span>
+              <p class="tm-entry__meta"><span><time datetime="2022-08">Aug</time> – <time datetime="2022-09">Sep 2022</time></span><span class="tm-entry__type">Internship</span></p>
+              <h3 class="tm-entry__title">Electrical &amp; Electronics Engineering Intern</h3>
+              <p class="tm-entry__org" lang="tr">ASSAN Elektronik İmalat</p>
+              <p class="tm-entry__text">Designed precision circuits that read very weak signals, and a test board that checks products coming off the production line.</p>
+              <details class="tm-details">
+                <summary>Engineer’s details</summary>
+                <ul>
+                  <li>Designed low-noise, precision analog instrumentation to acquire weak external signals.</li>
+                  <li>Designed a stable, low temperature-drift constant-current generator for LED drive tests.</li>
+                  <li>Designed a hardware-in-the-loop simulator board that verifies products in mass production.</li>
+                </ul>
+              </details>
+            </li>
+
+            <li class="tm-entry tm-entry--role" id="t-2022-06" data-date="2022-06" data-reveal>
+              <span class="tm-entry__marker" aria-hidden="true"></span>
+              <p class="tm-entry__meta"><span><time datetime="2022-06">Jun</time> – <time datetime="2022-08">Aug 2022</time></span><span class="tm-entry__type">Internship</span></p>
+              <h3 class="tm-entry__title">Electrical &amp; Electronics Engineering Intern</h3>
+              <p class="tm-entry__org">Digitest Defence &amp; Aerospace</p>
+              <p class="tm-entry__text">Designed an 840 W three-phase motor driver built to military standards.</p>
+              <details class="tm-details">
+                <summary>Engineer’s details</summary>
+                <ul>
+                  <li>Designed military-grade 3-phase 840 W motor driver hardware.</li>
+                  <li>Studied and implemented MIL-STD-1275.</li>
+                  <li>IGBT conduction and switching loss calculations, bootstrap circuit design, thermal management and protection techniques.</li>
+                  <li>Supported the team with prototyping and soldering electronic boards.</li>
+                </ul>
+              </details>
+            </li>
+
+            <!-- Approximate month for the dial; the visible label shows the year only. -->
+            <li class="tm-entry tm-entry--award" id="t-2022" data-date="2022-04" data-reveal>
+              <span class="tm-entry__marker" aria-hidden="true"></span>
+              <p class="tm-entry__meta"><time datetime="2022">2022</time><span class="tm-entry__type">Award</span></p>
+              <h3 class="tm-entry__title">4th place, National Satellite Design Challenge</h3>
+            </li>
+
+            <!-- Approximate month for the dial; the visible label stays general. -->
+            <li class="tm-entry tm-entry--edu" id="t-space-club" data-date="2020-06" data-reveal>
+              <span class="tm-entry__marker" aria-hidden="true"></span>
+              <p class="tm-entry__meta"><span>University years</span><span class="tm-entry__type">Leadership</span></p>
+              <h3 class="tm-entry__title">Team lead, KTU Space Club</h3>
+              <p class="tm-entry__text">Led the design of two sounding rockets and four satellite projects. This is where my path to space really began.</p>
+            </li>
+
+            <li class="tm-entry tm-entry--edu tm-entry--origin" id="t-2018" data-date="2018-09" data-reveal>
+              <span class="tm-entry__marker" aria-hidden="true"></span>
+              <p class="tm-entry__meta"><time datetime="2018">2018</time><span class="tm-entry__type">T-0 · Liftoff</span></p>
+              <h3 class="tm-entry__title">Electrical &amp; Electronics Engineering begins</h3>
+              <p class="tm-entry__org">BSc · Karadeniz Technical University</p>
+              <p class="tm-entry__text">Power electronic circuits, electromagnetic compatibility, industrial electronics and motor drives, plus an 8-month cultural exchange program in the United States.</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="tm-ground" data-milestone="reached-2018">
+        <div class="tm-ground__line" aria-hidden="true"></div>
+        <p class="tm-ground__quote">Every mission starts on the ground.</p>
+        <p class="tm-ground__place" lang="tr">Trabzon, Türkiye · 2018</p>
+      </div>
+    </section>
+
+    <!-- 04 · NEXT MISSION -->
+    <section class="contact section" id="contact" aria-labelledby="contact-title" data-milestone="reached-contact">
+      <div class="container">
+        <p class="kicker" data-reveal><span>04</span>Next mission</p>
+        <h2 id="contact-title" class="contact__title" data-reveal>Building the next spacecraft? <span>Let’s talk.</span></h2>
+        <p class="section-lead" data-reveal>I’m always glad to talk about spacecraft electronics, ambitious missions and the teams that build them.</p>
+        <div class="contact__actions" data-reveal>
+          <a class="btn btn--primary" href="mailto:contact@enesmercan.com">contact@enesmercan.com</a>
+          <a class="btn btn--ghost" href="assets/cv/Enes-Mercan-CV.pdf" download>Download CV</a>
+        </div>
+        <ul class="contact__links" data-reveal>
+          <li><a href="https://www.linkedin.com/in/enesmercan" rel="me noopener" target="_blank">LinkedIn <span aria-hidden="true">↗</span></a></li>
+          <li><a href="https://github.com/enesmrcn" rel="me noopener" target="_blank">GitHub <span aria-hidden="true">↗</span></a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p>© <span data-current-year>2026</span> Enes Mercan</p>
+      <a href="#top">Return to orbit <span aria-hidden="true">↑</span></a>
+    </div>
+  </footer>
+</body>
+</html>

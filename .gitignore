@@ -1,0 +1,10 @@
+# OS clutter
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Original, unprocessed photos (only the optimised copies in assets/img are published)
+tools/originals/
+
+# Python
+__pycache__/

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Signal lost · Enes Mercan</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#000000">
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/css/fonts.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <style>
+    .lost { position: relative; min-height: 100vh; min-height: 100svh; display: grid; place-items: center; overflow: hidden; padding: 96px var(--gutter); text-align: center; }
+    .lost .cover__planet { left: 50%; top: 72%; }
+    .lost__inner { position: relative; z-index: 1; display: grid; justify-items: center; gap: 1.5rem; }
+    .lost .kicker::before { content: ''; width: 56px; height: 1px; background: var(--line-strong); }
+    .lost h1 { max-width: 16ch; font: 500 clamp(2rem, 5vw, 3.6rem)/1.08 var(--f-display); letter-spacing: -.015em; }
+    .lost p:not(.kicker) { max-width: 44ch; color: var(--grey-300); }
+  </style>
+</head>
+<body>
+  <main class="lost">
+    <div class="cover__planet" aria-hidden="true"></div>
+    <div class="lost__inner">
+      <p class="kicker"><span>404</span>Signal lost</p>
+      <h1>This page drifted out of orbit.</h1>
+      <p>The address may be mistyped, or the page has moved.</p>
+      <a class="btn btn--primary" href="/">Return to orbit</a>
+    </div>
+  </main>
+</body>
+</html>
